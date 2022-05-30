@@ -1,0 +1,223 @@
+body {
+  zoom: 100%;
+  margin: 1%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.hshape {
+  display: flex;
+  gap: 3rem;
+}
+.hshape div {
+  border: 1px solid #a9a9a9;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 5rem;
+}
+.icon1 {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.headerflex {
+  display: flex;
+  justify-content: space-between;
+}
+.hp {
+  color: #6338bc;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.ht {
+  display: flex;
+}
+.hr2 {
+  transform: rotate(270deg);
+  width: 3rem;
+  margin-top: 2rem;
+}
+.htext {
+  width: 40%;
+  text-align: left;
+  margin-top: 0.8rem;
+}
+.toggle {
+  margin-right: 5rem;
+  top: 3rem;
+  position: relative;
+}
+/*  */
+.hh {
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+.hh1,
+.hh2 {
+  color: #6338bc;
+  width: 15rem;
+  background-color: #dbd3ed;
+  height: 2.5rem;
+  padding-top: 0.7rem;
+}
+.hh2 {
+  background-color: white;
+}
+.hr3 {
+  margin-top: 0.01rem;
+}
+.textfie {
+  display: flex;
+  gap: 2rem;
+}
+
+.viconflex {
+  display: flex;
+  justify-content: space-between;
+}
+.viconflex2 {
+  display: flex;
+  gap: 2rem;
+  margin-right: 1rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  text-align: left;
+}
+.bhr {
+  margin-top: -2rem;
+}
+.icon1:hover {
+  opacity: 50%;
+  transform: scale(1.1);
+}
+
+/* Grid  */
+.mainbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box2 {
+  margin-top: 1rem;
+  border: 2px solid #d3d3eb;
+  width: 20rem;
+  height: max-content;
+  border-radius: 8px;
+  display: flex;
+  gap: 2rem;
+  position: relative;
+  flex-wrap: wrap;
+  margin-left: 8rem;
+}
+.gridf1 {
+  display: flex;
+}
+.gridf2 {
+  display: flex;
+  gap: 5rem;
+  text-align: left;
+  margin-left: 1.5rem;
+}
+.gridf3 {
+  display: flex;
+  margin-left: 1.5rem;
+  gap: 4rem;
+  margin-bottom: 2rem;
+}
+.gtext {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.5rem;
+  padding-top: 0.7rem;
+}
+.gimg {
+  margin: 0.5rem;
+}
+.avatars {
+  position: absolute;
+  left: 10rem;
+  top: 8rem;
+}
+.apy {
+  margin-left: 2rem;
+}
+.hnameh {
+  font-weight: bold;
+}
+.stake {
+  padding-right: 2rem;
+}
+.navbar {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 99;
+}
+.dashboard {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  width: 10rem;
+  height: 140vh;
+  background-color: rgb(255, 251, 251);
+  z-index: 999;
+  position: absolute;
+  top: 0px;
+  margin-top: 1.5rem;
+}
+.dashlflx {
+  display: flex;
+  gap: 1rem;
+}
+.dasflex1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+ul {
+  margin-top: -0.5rem;
+}
+
+.close {
+  font-size: 35px;
+  position: absolute;
+  left: 8rem;
+  top: 0rem;
+  cursor: pointer;
+  color: red;
+}
+.close:hover {
+  transform: scale(1.2);
+  color: red;
+}
+#dashboard {
+  display: none;
+}
+.perfl {
+  position: relative;
+}
+.percentagr {
+  position: absolute;
+  top: 3.7rem;
+  font-size: 10px;
+  left: 0.7rem;
+}
+.prog {
+  margin-top: -1rem;
+}
+.progd {
+  position: relative;
+}
+.percentage {
+  position: absolute;
+  top: -0.2rem;
+  font-size: 10px;
+  left: 10.1rem;
+}
