@@ -15,7 +15,7 @@ const Header = () => {
         </div>
         <div className="hshape">
           <div className="">13.4622</div>
-          <div>0xF1....sc2</div>
+          <div className="hnt2">0xF1....sc2</div>
           <div>Ethereum</div>
           <span className="icon1">
             <ion-icon name="cog-outline"></ion-icon>

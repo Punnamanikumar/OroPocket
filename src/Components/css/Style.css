@@ -47,7 +47,6 @@ body {
   top: 3rem;
   position: relative;
 }
-/*  */
 .hh {
   display: flex;
   gap: 10px;
@@ -168,9 +167,9 @@ body {
   height: 140vh;
   background-color: rgb(255, 251, 251);
   z-index: 999;
-  position: absolute;
+  position: fixed;
   top: 0px;
-  margin-top: 1.5rem;
+  padding-top: 1.5rem;
 }
 .dashlflx {
   display: flex;
@@ -192,6 +191,7 @@ ul {
   top: 0rem;
   cursor: pointer;
   color: red;
+  padding-top: 1.5rem;
 }
 .close:hover {
   transform: scale(1.2);
@@ -220,4 +220,96 @@ ul {
   top: -0.2rem;
   font-size: 10px;
   left: 10.1rem;
+}
+/* Mobile Responsive */
+@media screen and (min-width: 360px) and (max-width: 771px) {
+  body {
+    overflow-x: hidden;
+    margin-top: 1rem;
+  }
+  .hnt2 {
+    display: none;
+  }
+  .hp {
+    font-size: 2rem;
+  }
+  .htext {
+    font-size: 0.6rem;
+  }
+  .toggle {
+    /* display: none; */
+    width: 0.1rem;
+    top: 0.5rem;
+  }
+  .dashboard {
+    padding-top: 2rem;
+    margin-top: -0.5rem;
+    position: fixed;
+  }
+  .sort {
+    display: none;
+  }
+  .close {
+    margin-top: 2rem;
+  }
+  .vimg img {
+    height: 3rem;
+  }
+  .box {
+    margin-left: 0rem;
+  }
+  .vflex {
+    margin-left: 1rem;
+  }
+  .avatars1 img {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .perfl {
+    zoom: 0.8;
+  }
+  .vf1 {
+    font-size: small;
+  }
+  .gridapy {
+    display: none;
+  }
+  .rigarow {
+    position: absolute;
+    right: 0rem;
+    margin-top: 0.5rem;
+  }
+  .percentagr {
+    left: 0.5rem;
+    top: 4.5rem;
+  }
+  .box2 {
+    margin-left: 0.5rem;
+    height: 20rem;
+    zoom: 50%;
+    width: 20rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .avatars {
+    top: 10rem;
+  }
+  .mainbox {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 772px) and (max-width: 913px) {
+  .box2 {
+    margin-left: 0.5rem;
+    height: 20rem;
+    zoom: 75%;
+    width: 20rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .dashboard {
+    padding-top: 2rem;
+    margin-top: -0.5rem;
+    position: fixed;
+  }
 }

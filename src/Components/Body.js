@@ -15,7 +15,7 @@ const Body = () => {
       <div className="viconflex">
         <div className="textfie">
           <TextField id="standard-basic" label="Search" variant="standard" />
-          <TextField id="standard-select-currency" select label="Sort" helperText="Please select to sort" variant="standard"></TextField>
+          <div className="sort"><TextField id="standard-select-currency" select label="Sort" helperText="Please select to sort" variant="standard"></TextField></div>
         </div>
         <div className="viconflex2">
           <div className="icon1" onClick={() => setToggle(true)}><ion-icon name="list-outline"></ion-icon></div>
@@ -37,7 +37,7 @@ const Body = () => {
                   </div>
                   <div className="vflex">
                     <div>Rewards</div><br />
-                    <div>
+                    <div className="avatars1">
                       <AvatarGroup total={val.total}>
                         <Avatar alt="" src={val.re1} />
                         <Avatar alt="" src={val.re2} />
@@ -45,10 +45,10 @@ const Body = () => {
                       </AvatarGroup>
                     </div>
                   </div>
-                  <div><div>APY</div><br /><div>{val.apy}</div>
+                  <div className="gridapy"><div>APY</div><br /><div>{val.apy}</div>
                   </div>
                   <div>{val.boosted}</div>
-                  <div className="icon1"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+                  <div className="icon1 rigarow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
                 </div><hr className="bhr" />
               </div>
             ))}
